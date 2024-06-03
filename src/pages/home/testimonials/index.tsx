@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Testimonials = () => {
     return (
-        <div className="testimonials h-[850px] flex items-center justify-center -mt-40" id='why-devoptima'>
+        <div className="testimonials  h-[850px] flex items-center justify-center -mt-40" id='why-devoptima'>
             <div className='flex items-center gap-16'>
                 <div className='w-[522px]'>
                     <Image src={testimonial1} alt='testimonial1' className='-ml-12' />
@@ -26,7 +26,7 @@ const Testimonials = () => {
                 <div className='w-[522px]'>
                     <Image src={testimonial2} alt='testimonial1' className='-ml-12' />
                     <p className='text-[#BDC4D1] text-2xl'>
-                        DevOptima has been a game-changer for us. With their support, we've shifted our focus
+                        DevOptima has been a game-changer for us. With their support, we&apos;ve shifted our focus
                         <span className='text-white'> from operational hurdles to pushing boundaries in innovation.
                         </span>
                     </p>
