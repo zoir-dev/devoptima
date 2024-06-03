@@ -1,0 +1,39 @@
+<svg width="52.875000" height="52.875000" viewBox="0 0 52.875 52.875" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_124_734_dd" x="0.000000" y="0.000000" width="52.875000" height="52.875000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="2.8125"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip124_735">
+			<rect id="Frame 1321319726" width="22.000000" height="22.000000" transform="translate(15.437500 15.437500)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="26.437500" y1="8.437500" x2="26.437500" y2="44.437500" id="paint_linear_124_734_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#284A90"/>
+			<stop offset="1.000000" stop-color="#284A90" stop-opacity="0.400000"/>
+		</linearGradient>
+		<linearGradient x1="26.437500" y1="8.437500" x2="26.437500" y2="44.437500" id="paint_linear_124_734_1" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#749FF6"/>
+			<stop offset="0.430493" stop-color="#153984"/>
+		</linearGradient>
+		<linearGradient x1="26.076424" y1="15.821022" x2="26.076424" y2="37.455772" id="paint_linear_124_736_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#8096CB"/>
+			<stop offset="1.000000" stop-color="#8096CB" stop-opacity="0.501961"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_124_734_dd)">
+		<rect id="Rectangle 34624903" x="8.437500" y="8.437500" rx="9.000000" width="36.000000" height="36.000000" fill="url(#paint_linear_124_734_0)" fill-opacity="0.350000"/>
+		<rect id="Rectangle 34624903" x="9.080383" y="9.080078" rx="9.000000" width="34.714287" height="34.714287" stroke="url(#paint_linear_124_734_1)" stroke-opacity="0.300000" stroke-width="1.285714"/>
+	</g>
+	<g clip-path="url(#clip124_735)">
+		<path id="Union" d="M30.3003 16.2666L33.3732 16.2666Q33.5322 16.2666 33.6681 16.3232Q33.8038 16.3789 33.9164 16.4912Q34.0289 16.6045 34.0851 16.7402L34.0852 16.7402Q34.1414 16.876 34.1414 17.0352L34.1414 20.1074C34.1414 20.5381 33.8033 20.876 33.3732 20.876C32.943 20.876 32.605 20.5381 32.605 20.1074L32.605 18.7451L27.7083 23.0967Q27.5983 23.1943 27.4696 23.2422L27.4696 23.2422L27.4696 23.2422Q27.3409 23.291 27.1938 23.29Q27.0466 23.2891 26.9186 23.2393L26.9185 23.2393Q26.7904 23.1895 26.6815 23.0908L24.5269 21.1348L19.2803 25.6816C18.9552 25.9629 18.4784 25.9297 18.1967 25.6045C17.9149 25.2793 17.949 24.8018 18.274 24.5205L24.0356 19.5273Q24.1458 19.4316 24.2738 19.3848L24.2738 19.3848Q24.4019 19.3379 24.5476 19.3398Q24.6934 19.3408 24.8202 19.3906L24.8203 19.3906Q24.9471 19.4404 25.0552 19.5391L27.2035 21.4893L31.3521 17.8027L30.3003 17.8027C29.8701 17.8027 29.5321 17.4648 29.5321 17.0352C29.5321 16.6045 29.8701 16.2666 30.3003 16.2666ZM34.1412 23.9482L34.1412 36.2393C34.1412 36.6699 33.8032 37.0078 33.373 37.0078C32.9429 37.0078 32.6049 36.6699 32.6049 36.2393L32.6049 23.9482C32.6049 23.5176 32.9429 23.1797 33.373 23.1797C33.8032 23.1797 34.1412 23.5176 34.1412 23.9482ZM29.5321 36.2393L29.5321 26.2529C29.5321 25.8223 29.1941 25.4844 28.7639 25.4844C28.3337 25.4844 27.9957 25.8223 27.9957 26.2529L27.9957 36.2393C27.9957 36.6689 28.3337 37.0078 28.7639 37.0078C29.1941 37.0078 29.5321 36.6689 29.5321 36.2393ZM24.9229 28.5576L24.9229 36.2402C24.9229 36.6699 24.5848 37.0078 24.1547 37.0078C23.7245 37.0078 23.3865 36.6699 23.3865 36.2402L23.3865 28.5576C23.3865 28.1279 23.7245 27.79 24.1547 27.79C24.5848 27.79 24.9229 28.1279 24.9229 28.5576ZM20.3136 36.2402L20.3136 31.6309C20.3136 31.2002 19.9756 30.8623 19.5453 30.8623C19.1151 30.8623 18.7771 31.2002 18.7771 31.6309L18.7771 36.2402C18.7771 36.6699 19.1151 37.0078 19.5453 37.0078C19.9756 37.0078 20.3136 36.6699 20.3136 36.2402Z" clip-rule="evenodd" fill="url(#paint_linear_124_736_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

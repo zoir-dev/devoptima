@@ -2,32 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-[#0a0812] text-white w-full  overflow-x-hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-img {
+  background-image: url("../assets/main_bg.svg");
+  background-size: 160%;
+  background-position: 14% 14%;
+  background-repeat: no-repeat;
+  margin-top: -80px;
+  padding-top: 80px;
+}
+
+.testimonials {
+  background-image: url("../assets/testimonials.svg");
+  background-size: 120%;
+  background-position: 55% 150%;
+}
+
+.form {
+  background: linear-gradient(
+    214.99deg,
+    rgba(24, 38, 74, 0.8) 22.592%,
+    rgba(15, 22, 49, 0.8) 93.391%
+  );
+}
+
+.about-hero-gradient {
+  filter: blur(100px);
+  background: rgba(20, 28, 72, 0.3);
+  width: 300px;
+  height: 300px;
+}
+
+.services-hero-gradient {
+  filter: blur(300px);
+  background: rgba(20, 28, 72, 0.6);
+  width: 1220px;
+  height: 396px;
+}
+
+.small-about-gradient {
+  filter: blur(39.64px);
+  background: rgb(0, 84, 255);
+  opacity: 0.8;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.hero-round-gradient {
+  position: absolute;
+  top: -500px;
+  left: -500px;
+  height: 800px;
+  width: 800px;
+  filter: blur(600px);
+  background: rgba(20, 28, 72, 0.6);
+}
+
+.hero-round-gradient2 {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  filter: blur(600px);
+  background: rgba(20, 28, 72, 0.6);
+}
+
+.hero-ellipse-gradient {
+  position: absolute;
+  top: -216px;
+  height: 396px;
+  width: 716px;
+  flex-shrink: 0;
+  border-radius: 716px;
+  --tw-blur: blur(200px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  background: rgba(20, 28, 72, 0.6);
+}
+
+.hero-title {
+  background: linear-gradient(
+    102deg,
+    rgba(109, 156, 246, 0.7) -11.46%,
+    #fff 46.19%
+  );
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.get-started-title {
+  background: linear-gradient(
+    90deg,
+    rgba(109, 156, 246, 0.7),
+    rgba(195, 214, 251, 0.88),
+    rgb(255, 255, 255),
+    rgba(208, 223, 252, 0.9),
+    rgba(109, 156, 246, 0.7)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 112.5%;
+  letter-spacing: -1%;
 }
